@@ -3,7 +3,7 @@ INSTALLmac.txt - Installation of Vim on Macintosh
 This file contains instructions for compiling Vim. If you already have an
 executable version of Vim, you don't need this.
 
-First, make sure you've installed Xcode or CommandLineToots.  If not, open a
+First, make sure you've installed Xcode or CommandLineTools.  If not, open a
 terminal and do
 
 	$ make --version
@@ -58,7 +58,7 @@ MacOS Classic is no longer supported.  If you really want it use Vim 6.4.
  If you do not want the Carbon interface, you must explicitly tell
  configure to use a different GUI.
 
-  cd .../src
+  cd ../src
   ./configure --disable-darwin --enable-gui=gtk2
   make; make install
 
